@@ -20,7 +20,7 @@ def simpan_data(data_baru, nama_file):
         df.to_csv(nama_file, index=False)
 
 # --- TAMPILAN UTAMA (SIDEBAR) ---
-st.sidebar.image("https://img.icons8.com/color/96/security-checked--v1.png", width=100)
+st.sidebar.image("https://drive.google.com/file/d/1dZZlAIiTRHy4j7bC7DQjKNMJE37N5cCw/view?usp=sharing", width=100)
 st.sidebar.title("Navigasi Security")
 menu = st.sidebar.radio("Pilih Menu:", ["Absensi & Disiplin", "Input Laporan K3", "Wawasan Fasilitas"])
 
@@ -107,3 +107,4 @@ elif menu == "Wawasan Fasilitas":
 # Footer
 st.markdown("---")
 st.caption("Sistem Manajemen Security RSUD Cipayung - Dikembangkan dengan Python Streamlit")
+
