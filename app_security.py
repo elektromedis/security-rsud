@@ -29,7 +29,7 @@ if menu == "Absensi & Disiplin":
     st.header("📋 Absensi Security Officer - RSUD Cipayung")
     
     with st.form("form_absensi"):
-        nama = st.selectbox("Nama Petugas:", ["Agung", "Bagus Maryanto", "Murjadi", "Liftahudin"])
+        nama = st.selectbox("Nama Petugas:", ["Pilih Nama Anda","Agung", "Bagus Maryanto", "Murjadi", "Liftahudin"])
         shift = st.selectbox("Shift Jaga:", ["Pagi (07.00 - 15.00)", "Siang (15.00 - 23.00)", "Malam (23.00 - 07.00)"])
         lokasi = st.selectbox("Pos Jaga:", ["Lobby Utama", "IGD", "Ruang Rawat Inap", "Parkiran"])
         submit_absen = st.form_submit_button("Masuk Absen")
@@ -107,6 +107,7 @@ elif menu == "Wawasan Fasilitas":
 # Footer
 st.markdown("---")
 st.caption("Sistem Manajemen Security RSUD Cipayung - Dikembangkan dengan Python Streamlit")
+
 
 
 
